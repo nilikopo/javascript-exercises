@@ -3,6 +3,7 @@ const convertToCelsius = function(number) {
 };
 
 const convertToFahrenheit = function(number) {
+  return +((number * 1.8) + 32).toFixed(1)
 };
 
 // Do not edit below this line
